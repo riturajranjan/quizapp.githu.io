@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#box{
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px gray;
+    background-color: #fff;
+    padding: 15px;
+}
+.row{
+    width: 100%;
+    padding: 15px;
+}
+.btn{
+    width: 100%;
+    padding: 15px;
+    background-color: aqua;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 5px;
+    font-family: "Trirong", serif;
+}
+.btn:hover{
+    background-color: #00ffffab;
+    cursor: pointer;
+
+}
+label{
+    font-size: 18px;
+    cursor: pointer;
+}
